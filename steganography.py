@@ -1,6 +1,6 @@
 from PIL import Image
 
-def encode_text_file():
+def encode_text_file(): 
     print("=== Encode a Message into an Image ===")
     image_path = input("Enter the path of the input image (e.g., input.png, input.jpg): ")
     input_text_file = input("Enter the path of the text file to hide (e.g., message.txt): ")
