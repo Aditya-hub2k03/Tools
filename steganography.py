@@ -5,7 +5,7 @@ def encode_text_file():
     image_path = input("Enter the path of the input image (e.g., input.png, input.jpg): ")
     input_text_file = input("Enter the path of the text file to hide (e.g., message.txt): ")
     output_image_path = input("Enter the path for the output image (e.g., output.png, output.jpg): ")
-
+ 
     with open(input_text_file, 'r') as file:
         message = file.read()
 
